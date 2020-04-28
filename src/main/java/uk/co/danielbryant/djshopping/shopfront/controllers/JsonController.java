@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JsonController {
 
-    @RequestMapping("/test")
+    @RequestMapping("/")
     public String test() {
         return "{\"result\":\"okay\"}";
     }

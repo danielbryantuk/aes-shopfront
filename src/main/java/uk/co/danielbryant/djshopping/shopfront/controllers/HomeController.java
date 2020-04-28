@@ -10,12 +10,12 @@ import uk.co.danielbryant.djshopping.shopfront.services.ProductService;
 @Controller
 public class HomeController {
 
-    @Autowired
-    private ProductService productService;
-
-    @RequestMapping("/")
-    public String index(Model model) {
-        model.addAttribute("products", productService.getProducts());
-        return "index";
-    }
+//    @Autowired
+//    private ProductService productService;
+//
+//    @RequestMapping("/")
+//    public String index(Model model) {
+//        model.addAttribute("products", productService.getProducts());
+//        return "index";
+//    }
 }
